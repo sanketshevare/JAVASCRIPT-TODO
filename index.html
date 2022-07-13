@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Todo App</title>
+    <link rel="icon"
+        href="data:image/jpeg;base64,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"
+        type="image/png">
+</head>
+
+<body>
+
+    <header>
+        <h1> Todo List</h1>
+    </header>
+
+    <div class="main">
+        <form>
+            <input class="todo-input" placeholder="Enter todo"></input>
+            <button class="todo-btn" type="submit">
+                <i class="fa-solid fa-square-plus"></i>
+            </button>
+            <!-- <select name="todos" class="filter-todos">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select> -->
+        </form>
+    </div>
+
+
+    <div class="todo-container">
+        <ul class="todo-list">
+
+        </ul>
+    </div>
+    <script src="./app.js"></script>
+
+
+</body>
+
+</html>
